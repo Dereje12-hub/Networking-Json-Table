@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		02863CC72957F61B001A8440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863CC62957F61B001A8440 /* AppDelegate.swift */; };
 		02863CC92957F61B001A8440 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863CC82957F61B001A8440 /* SceneDelegate.swift */; };
-		02863CCB2957F61B001A8440 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863CCA2957F61B001A8440 /* ViewController.swift */; };
 		02863CCE2957F61B001A8440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02863CCC2957F61B001A8440 /* Main.storyboard */; };
 		02863CD02957F61D001A8440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02863CCF2957F61D001A8440 /* Assets.xcassets */; };
 		02863CD32957F61D001A8440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02863CD12957F61D001A8440 /* LaunchScreen.storyboard */; };
 		02863CDE2957F61E001A8440 /* Networking_Json_TableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863CDD2957F61E001A8440 /* Networking_Json_TableTests.swift */; };
 		02863CE82957F61E001A8440 /* Networking_Json_TableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863CE72957F61E001A8440 /* Networking_Json_TableUITests.swift */; };
 		02863CEA2957F61E001A8440 /* Networking_Json_TableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863CE92957F61E001A8440 /* Networking_Json_TableUITestsLaunchTests.swift */; };
+		02863CFA295811EE001A8440 /* JesonDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863CF9295811EE001A8440 /* JesonDataLoader.swift */; };
+		02863CFC295812A9001A8440 /* EmployeeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863CFB295812A9001A8440 /* EmployeeData.swift */; };
+		02863CFE2958180E001A8440 /* Employee.json in Resources */ = {isa = PBXBuildFile; fileRef = 02863CFD2958180E001A8440 /* Employee.json */; };
+		02863D00295823FF001A8440 /* EmployeeDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863CFF295823FF001A8440 /* EmployeeDataTableViewController.swift */; };
+		02863D062958A39E001A8440 /* EmployeeDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863D052958A39E001A8440 /* EmployeeDataTableViewCell.swift */; };
+		02863D0A29592054001A8440 /* extensionToLoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863D0929592054001A8440 /* extensionToLoadImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		02863CC32957F61B001A8440 /* Networking-Json-Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Networking-Json-Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02863CC62957F61B001A8440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02863CC82957F61B001A8440 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02863CCA2957F61B001A8440 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02863CCD2957F61B001A8440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02863CCF2957F61D001A8440 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02863CD22957F61D001A8440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		02863CE32957F61E001A8440 /* Networking-Json-TableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Networking-Json-TableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02863CE72957F61E001A8440 /* Networking_Json_TableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking_Json_TableUITests.swift; sourceTree = "<group>"; };
 		02863CE92957F61E001A8440 /* Networking_Json_TableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking_Json_TableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02863CF9295811EE001A8440 /* JesonDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JesonDataLoader.swift; sourceTree = "<group>"; };
+		02863CFB295812A9001A8440 /* EmployeeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeData.swift; sourceTree = "<group>"; };
+		02863CFD2958180E001A8440 /* Employee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Employee.json; sourceTree = "<group>"; };
+		02863CFF295823FF001A8440 /* EmployeeDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataTableViewController.swift; sourceTree = "<group>"; };
+		02863D052958A39E001A8440 /* EmployeeDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataTableViewCell.swift; sourceTree = "<group>"; };
+		02863D0929592054001A8440 /* extensionToLoadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionToLoadImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,10 @@
 			children = (
 				02863CC62957F61B001A8440 /* AppDelegate.swift */,
 				02863CC82957F61B001A8440 /* SceneDelegate.swift */,
-				02863CCA2957F61B001A8440 /* ViewController.swift */,
+				02863CF62957F7D1001A8440 /* Model */,
+				02863CFB295812A9001A8440 /* EmployeeData.swift */,
+				02863CFF295823FF001A8440 /* EmployeeDataTableViewController.swift */,
+				02863D052958A39E001A8440 /* EmployeeDataTableViewCell.swift */,
 				02863CCC2957F61B001A8440 /* Main.storyboard */,
 				02863CCF2957F61D001A8440 /* Assets.xcassets */,
 				02863CD12957F61D001A8440 /* LaunchScreen.storyboard */,
@@ -125,6 +138,17 @@
 				02863CE92957F61E001A8440 /* Networking_Json_TableUITestsLaunchTests.swift */,
 			);
 			path = "Networking-Json-TableUITests";
+			sourceTree = "<group>";
+		};
+		02863CF62957F7D1001A8440 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02863CF9295811EE001A8440 /* JesonDataLoader.swift */,
+				02863CFD2958180E001A8440 /* Employee.json */,
+				02863D0929592054001A8440 /* extensionToLoadImage.swift */,
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02863CD32957F61D001A8440 /* LaunchScreen.storyboard in Resources */,
+				02863CFE2958180E001A8440 /* Employee.json in Resources */,
 				02863CD02957F61D001A8440 /* Assets.xcassets in Resources */,
 				02863CCE2957F61B001A8440 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02863CCB2957F61B001A8440 /* ViewController.swift in Sources */,
+				02863D00295823FF001A8440 /* EmployeeDataTableViewController.swift in Sources */,
 				02863CC72957F61B001A8440 /* AppDelegate.swift in Sources */,
+				02863CFC295812A9001A8440 /* EmployeeData.swift in Sources */,
+				02863CFA295811EE001A8440 /* JesonDataLoader.swift in Sources */,
+				02863D062958A39E001A8440 /* EmployeeDataTableViewCell.swift in Sources */,
 				02863CC92957F61B001A8440 /* SceneDelegate.swift in Sources */,
+				02863D0A29592054001A8440 /* extensionToLoadImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
