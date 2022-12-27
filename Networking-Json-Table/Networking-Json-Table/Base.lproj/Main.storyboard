@@ -83,17 +83,17 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="sjH-Te-awT" id="drL-HZ-ndV"/>
-                        <segue destination="yhv-gb-BTf" kind="showDetail" id="wgS-iO-nii"/>
+                        <segue destination="yhv-gb-BTf" kind="showDetail" identifier="ToEmployeeDetailViewController" id="BOi-j2-7Lr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sdv-xL-cve" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-158.01526717557252" y="-8.4507042253521139"/>
         </scene>
-        <!--View Controller-->
+        <!--Employee Detail View Controller-->
         <scene sceneID="iem-JU-NJ6">
             <objects>
-                <viewController id="yhv-gb-BTf" sceneMemberID="viewController">
+                <viewController id="yhv-gb-BTf" customClass="EmployeeDetailViewController" customModule="Networking_Json_Table" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7fb-Wa-4AZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,20 +107,20 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="66" translatesAutoresizingMaskIntoConstraints="NO" id="cLc-JD-4if">
                                 <rect key="frame" x="59" y="303" width="256" height="20.333333333333314"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFU-17-XeO">
-                                        <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="20.333333333333332"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Photo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFU-17-XeO">
+                                        <rect key="frame" x="0.0" y="0.0" width="45" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gb9-9L-bQZ">
-                                        <rect key="frame" x="107.33333333333333" y="0.0" width="41.333333333333329" height="20.333333333333332"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Work" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gb9-9L-bQZ">
+                                        <rect key="frame" x="111.00000000000001" y="0.0" width="39.666666666666671" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jD5-L1-ISU">
-                                        <rect key="frame" x="214.66666666666669" y="0.0" width="41.333333333333314" height="20.333333333333332"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobby" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jD5-L1-ISU">
+                                        <rect key="frame" x="216.66666666666669" y="0.0" width="39.333333333333314" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -147,10 +147,13 @@
                             <constraint firstItem="cLc-JD-4if" firstAttribute="top" secondItem="ike-wj-kez" secondAttribute="bottom" constant="30" id="qJf-c5-euH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="employeeImage" destination="ike-wj-kez" id="56w-Fj-CYR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5gW-4G-oyP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="994.6564885496183" y="-22.535211267605636"/>
+            <point key="canvasLocation" x="958" y="-8"/>
         </scene>
     </scenes>
     <resources>

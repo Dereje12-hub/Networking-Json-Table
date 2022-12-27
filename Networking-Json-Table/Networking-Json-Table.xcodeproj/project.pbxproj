@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0263946A295A20EA007015A9 /* EmployeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02639469295A20EA007015A9 /* EmployeeDetailViewController.swift */; };
 		02863CC72957F61B001A8440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863CC62957F61B001A8440 /* AppDelegate.swift */; };
 		02863CC92957F61B001A8440 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02863CC82957F61B001A8440 /* SceneDelegate.swift */; };
 		02863CCE2957F61B001A8440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02863CCC2957F61B001A8440 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02639469295A20EA007015A9 /* EmployeeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailViewController.swift; sourceTree = "<group>"; };
 		02863CC32957F61B001A8440 /* Networking-Json-Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Networking-Json-Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02863CC62957F61B001A8440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02863CC82957F61B001A8440 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				02863CCF2957F61D001A8440 /* Assets.xcassets */,
 				02863CD12957F61D001A8440 /* LaunchScreen.storyboard */,
 				02863CD42957F61D001A8440 /* Info.plist */,
+				02639469295A20EA007015A9 /* EmployeeDetailViewController.swift */,
 			);
 			path = "Networking-Json-Table";
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				02863D062958A39E001A8440 /* EmployeeDataTableViewCell.swift in Sources */,
 				02863CC92957F61B001A8440 /* SceneDelegate.swift in Sources */,
 				02863D0A29592054001A8440 /* extensionToLoadImage.swift in Sources */,
+				0263946A295A20EA007015A9 /* EmployeeDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

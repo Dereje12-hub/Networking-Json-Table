@@ -17,11 +17,11 @@ public class JsonDataLoader
     @Published var employeeData = [EmployeeData]()
     
     init (){
-        load()
+        parseJSON()
         sort()
     }
     
-    func load() {
+    func parseJSON() {
         if let fileLocation = Bundle.main.url(forResource: "Employee", withExtension: "json") {
             
             //IN CASE OF ERROR
